@@ -3,21 +3,21 @@ VERSION:3.0
 N:Radadiya;Aryan;;;
 FN:Aryan Radadiya
 ORG:
+ADR;TYPE=WORK:
 TITLE:
 TEL;TYPE=CELL:
 TEL;TYPE=WORK:
 TEL;TYPE=HOME:
 TEL;TYPE=MSG:
-TEL;TYPE=SIGNAL:
 EMAIL;TYPE=WORK:aryanradadiya18@gmail.com
 URL;TYPE=Digital Business Card:https://aryanrada.github.io/
 URL:
 URL;TYPE=GitHub:https://github.com/aryanrada
 URL;TYPE=LinkedIn:https://linkedin.com/in/aryanradadiya/
 URL;TYPE=Twitter:https://twitter.com/AryanRada
-URL;TYPE=Discord:https://discordapp.com/users/739409707856560160
+URL;TYPE=Discord:https://discord.com/users/739409707856560160
 URL;TYPE=Instagram:https://instagram.com/aryan_radadiya
 KEY;TYPE=PGP;ENCODING=b:
 NOTE:
-UID:EnBizCard-100056822
+UID:EnBizCard-100054417
 END:VCARD
