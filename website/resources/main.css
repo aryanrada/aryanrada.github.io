@@ -56,6 +56,14 @@
     }
 }
 
+/*About section*/
+.about-img{
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #84F6FF;
+}
+
 /*Contact Form*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
