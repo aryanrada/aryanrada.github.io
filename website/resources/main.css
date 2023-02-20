@@ -9,6 +9,13 @@
   }
 }*/
 
+.navbar{
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  transition: top 1s;
+}
+
 /*Starting Section*/
 .logo img{
     height:40px;
