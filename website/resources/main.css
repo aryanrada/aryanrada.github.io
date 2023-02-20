@@ -251,3 +251,19 @@ textarea {
       height:50%
   }
 }
+
+.card-icon{
+  font-size: 28px;
+  background: #60E4FF;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+.card-body:hover .card-icon{
+  background: none;
+  color: #BDE9FF;
+  transform: scale(1.6);
+}
