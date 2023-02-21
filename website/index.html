@@ -67,7 +67,7 @@
                     <p>Thank you for visiting my website, and I hope you enjoy exploring my portfolio. If you have any questions or would like to work with me, feel free to Contact me.</p>
                 </div>
                 <div class="col-md text-center">
-                    <img src="images/aryan.jpg" width="310" height="400" class="about-img">
+                    <img src="images/aryan.jpg" width="310" height="400" class="about-img img-fluid">
                 </div>
             </div>
         </div>
@@ -93,24 +93,24 @@
     
     <div style="padding: 30px; background-color: #6DC8F7;">
         <div class="container text-center">
-            <div class="row" style="margin-bottom: 20px;">
-                <h1 class="w3-xxlarge" style="margin-bottom: 30px;">Projects</h1>
-                <div class="col">
-                    <img src="images/background.png" height="200px" width="300px">
+            <div class="row">
+                <h1 class="w3-xxlarge" style="margin-bottom: 10px;">Projects</h1>
+                <div class="col gy-4">
+                    <img src="images/background.png" class="project shadow-lg">
                 </div>
-                <div class="col">
-                    <img src="images/background.png" height="200px" width="300px">
+                <div class="col gy-4">
+                    <img src="images/background.png" class="project shadow-lg">
                 </div>
-                <div class="col">
-                    <img src="images/background.png" height="200px" width="300px">
+                <div class="col gy-4">
+                    <img src="images/background.png" class="project shadow-lg">
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <img src="images/background.png" height="200px" width="300px">
+                <div class="col gy-4">
+                    <img src="images/background.png" class="project shadow-lg">
                 </div>
-                <div class="col">
-                    <img src="images/background.png" height="200px" width="300px">
+                <div class="col gy-4">
+                    <img src="images/background.png" class="project shadow-lg">
                 </div>
             </div>
         </div>
@@ -135,11 +135,12 @@
                     </div>
                 </div>
                 <div class="col-md" style="width: 100%;">
-                    <form action="resources/contact.php" method="post">      
+                    <form action="" method="post">      
                         <input name="name" id="name" type="text" class="feedback-input" placeholder="Name" />   
                         <input name="email" id="email" type="email" class="feedback-input" placeholder="Email" />
                         <textarea name="message" id="message" class="feedback-input" placeholder="Message"></textarea>
-                        <input type="submit" value="SUBMIT"/>
+                        <button type="submit" id="liveAlertBtn">SUBMIT</button>
+                        <div id="liveAlertPlaceholder"></div>
                     </form>
                 </div>
             </div>
