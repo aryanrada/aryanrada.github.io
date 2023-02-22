@@ -89,6 +89,17 @@
   border-radius: 15px;
 }
 
+/*vdirect*/
+.vd-image{
+  height: 500px;
+}
+
+@media screen and (max-width:768px){
+  .vd-image{
+    height: 300px;
+  }
+}
+
 /*Contact Form*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
