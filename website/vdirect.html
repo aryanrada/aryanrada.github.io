@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="resources/main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #94E6FF;" id="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #94E6FF;">
         <div class="container-fluid">
             <a href="index.html">
                 <img src="images/Background-logo.png" alt="Logo" width="80" height="40" class="d-inline-block align-text-top">
@@ -23,27 +23,70 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown" style="background-color: #94E6FF">
-                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3 text-center">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#work">Work</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #94E6FF">
+                            <li><a class="dropdown-item" href="vdirect.html">VDirect</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="https://aryanrada.blogspot.com/">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    
+
+    <div style="background-color: #6DC8F7; padding-top: 70px;">
+        <div class="container text-center">
+            <h1><u><b>Video Streaming Service(VDirect)</b></u></h1>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col"></div>
+                <div class="col-8">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/background.png" height="500px" class="d-block w-100 rounded-4" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/background.png" height="500px" class="d-block w-100 rounded-4" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/background.png" height="500px" class="d-block w-100 rounded-4" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #84FFF8; padding: 5px;">
+        <div class="container text-center">
+            <p>Powered by: Aryan Radadiya</p>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="resources/main.js"></script>
 </body>
