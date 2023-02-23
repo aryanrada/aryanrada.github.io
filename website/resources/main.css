@@ -85,8 +85,19 @@
 /*projects*/
 .project{
   height: 200px;
-  width: 290px;
+  width: 100%;
   border-radius: 15px;
+}
+
+.imageContainer{
+  display: inline-block;
+  position: relative;
+}
+
+.imagetext {
+  color: aliceblue;
+  position: absolute;
+  bottom: 50px;
 }
 
 /*vdirect*/
