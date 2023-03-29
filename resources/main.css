@@ -199,3 +199,15 @@
   color: #BDE9FF;
   transform: scale(1.6);
 }
+
+/*Survey Monkey*/
+.survey-img{
+  height: 300px;
+}
+
+@media screen and (max-width:768px){
+  .survey-img{
+    width: 300px;
+    height: 200px;
+  }
+}
