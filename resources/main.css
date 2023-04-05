@@ -100,6 +100,12 @@
   bottom: 50px;
 }
 
+@media screen and (max-width:768px){
+  .col-disaperar{
+    display: none;
+  }
+}
+
 /*vdirect*/
 .vd-image{
   height: 500px;
