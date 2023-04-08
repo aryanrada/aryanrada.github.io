@@ -75,18 +75,12 @@
 }
 
 /*Service section*/
-.service{
-  height: 100px;
-  width: 100px;
+.service-image{
   align-items: center;
-  margin: 0 auto;
+  align-self: center;
 }
 
 @media (max-width:768px){
-  .service{
-    height: 80px;
-    width: 80px;
-  }
   .service-p{
     font-size: 12px;
   }
