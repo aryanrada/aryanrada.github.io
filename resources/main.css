@@ -112,7 +112,7 @@
   }
 }
 
-/*vdirect and chat-analysis*/
+/*vdirect and chat-analysis
 .vd-image{
   height: 500px;
 }
@@ -121,7 +121,7 @@
   .vd-image{
     height: 300px;
   }
-}
+}*/
 
 /*Social Icons*/
 .card-icon{
@@ -140,7 +140,7 @@
   transform: scale(1.6);
 }
 
-/*Survey Monkey*/
+/*Survey Monkey
 .survey-img{
   height: 300px;
 }
@@ -150,4 +150,4 @@
     width: 300px;
     height: 200px;
   }
-}
+}*/
